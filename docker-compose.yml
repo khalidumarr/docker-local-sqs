@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  sqs:
+    build:
+      context: ./   
+    volumes:
+      - './configs:/root/.aws'

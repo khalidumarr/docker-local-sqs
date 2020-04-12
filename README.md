@@ -24,7 +24,7 @@ Above command will return you following response:
 Now you can use this Queue URL in your other services, You can either use service name of
 add network and assign alias to this service in order to be accessed by other services.
 
-# Usage 
+## Usage 
 You can use below configurations in your projects with AWS SQS libraries to use from other services
 ```
 KEY: notValidKey

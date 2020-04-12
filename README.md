@@ -45,7 +45,7 @@ QUEUE_URL: http://sqs.local:9324/queue/watto
 ```
 
 ## Things to Keep in mind While Using With Go Lang
-You'll have to disable SSL, If you docker setup is not allowing http response to https
+You'll have to disable SSL, If your docker setup is not allowing http response to https
 or you are getting error like "server gave HTTP response to HTTPS", then you can use below code as reference
 ```
 awsConfig := aws.NewConfig().
